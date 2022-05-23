@@ -46,6 +46,12 @@ if [ $ALLOW_VALUE = 'false' ]; then exit 1; fi
 ## How to Use
 
 ## Security Policy Templates
+The following are the security policy templates that can be used to create policies for OPA:
+
+| Sample Policy                                 | Details                                                           |
+| --------------------------------------------- | ----------------------------------------------------------------- |
+| [sample-policies/security-groups-terraform.rego](https://github.com/hackersifu/example_opa_security_policies/blob/main/sample-policies/security-groups-terraform.rego) | Policy to evaluate AWS Security Groups deployed by Terraform |
+| [sample-policies/security-groups-cloudformation.rego](https://github.com/hackersifu/example_opa_security_policies/blob/main/sample-policies/security-groups-cloudformation.rego) | Policy to evaluate AWS Security Groups deployed by CloudFormation |
 
 ## Contributions & Feedback
 For any contributions, feel free to create a [GitHub Pull Request](https://github.com/hackersifu/example_opa_security_policies/pulls). Additionally, you can use the Issues section to report bugs or submit feedback.
