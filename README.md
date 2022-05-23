@@ -1,4 +1,5 @@
 [![Twitter](https://img.shields.io/twitter/url?label=Follow%20Me%21&style=social&url=https%3A%2F%2Ftwitter.com%2Fjdubm31)](https://twitter.com/jdubm31)
+![GitHub all releases](https://img.shields.io/github/downloads/hackersifu/example_opa_security_policies/total)
 
 # Example Open Policy Agent (OPA) Security Policies
 Example Open Policy Agent (OPA) Policies related to Security. These policies can be used as templates for using OPA within deployment pipelines, to prevent configurations that could lead to potential security issues.
