@@ -5,13 +5,10 @@
 Example Open Policy Agent (OPA) Policies related to Security. These policies can be used as templates for using OPA within deployment pipelines, to prevent configurations that could lead to potential security issues.
 
 ## Prerequisites
-Notes:
-Create deployment template (Terraform or CloudFormation)
-Create OPA Template
-Create script to peform the following actions within a pipeline:
-- Download Terraform (if Terraform policy is being evaluated)
-- Perform transform of Terraform script to JSON using `terraform show`
-- Download OPA file for evaluating
+The following are prerequisites for using the policies within a CI/CD pipeline:
+- Create a deployment template for the resources you want to build (e.g. via Terraform or CloudFormation)
+- Create the OPA template using the policies within the [sample-policies](https://github.com/hackersifu/example_opa_security_policies/tree/main/sample-policies) subfolder
+- Create script to perform the following actions within a pipeline (examples contained within the [sample-config-files](https://github.com/hackersifu/example_opa_security_policies/tree/main/sample-config-files) subfolder)
 
 ## Commands within the CI/CD Pipeline
 The following commands are used within the CI/CD pipeline build file (e.g. gitlab-ci.yml for GitLab, buildspec.yml for AWS CodeBuild, etc.) to run the commands needed for performing policy evaluation using OPA.
