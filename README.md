@@ -44,6 +44,14 @@ if [ $ALLOW_VALUE = 'false' ]; then exit 1; fi
 ```
 
 ## How to Use
+Steps to deploy the policies and commands to a pipeline for evaluation:
+1. Add the following files to the repository you want to deploy from:
+- Resource deployment file (e.g. Terraform, CloudFormation, etc.)
+- OPA template file
+- Build script file (e.g. gitlab-ci.yml, buildspec.yml, etc.)
+2. Create a pipeline and build within your respective platform (e.g. GitLab, AWS CodeBuild, GitHub, etc.)
+3. Validate that the template deploys successfully (or fails, if the policies are violated).
+- You can review the tail logs to perform this validation.
 
 ## Security Policy Templates
 The following are the security policy templates that can be used to create policies for OPA:
