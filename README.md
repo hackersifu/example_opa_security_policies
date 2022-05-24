@@ -62,6 +62,7 @@ The following are the security policy templates that can be used to create polic
 | --------------------------------------------- | ----------------------------------------------------------------- |
 | [sample-policies/security-groups-terraform.rego](https://github.com/hackersifu/example_opa_security_policies/blob/main/sample-policies/security-groups-terraform.rego) | Policy to evaluate AWS Security Groups deployed by Terraform |
 | [sample-policies/security-groups-cloudformation.rego](https://github.com/hackersifu/example_opa_security_policies/blob/main/sample-policies/security-groups-cloudformation.rego) | Policy to evaluate AWS Security Groups deployed by CloudFormation |
+| [sample-policies/s3-acl-terraform.rego](https://github.com/hackersifu/example_opa_security_policies/blob/main/sample-policies/s3-acl-terraform.rego) | Policy to evaluate AWS S3 ACLs deployed by Terraform |
 
 ## Contributions & Feedback
 For any contributions, feel free to create a [GitHub Pull Request](https://github.com/hackersifu/example_opa_security_policies/pulls). Additionally, you can use the Issues section to report bugs or submit feedback.
