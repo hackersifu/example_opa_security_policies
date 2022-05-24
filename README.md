@@ -50,6 +50,7 @@ Steps to deploy the policies and commands to a pipeline for evaluation:
    * Resource deployment file (e.g. Terraform, CloudFormation, etc.)
    * OPA template file
    * Build script file (e.g. gitlab-ci.yml, buildspec.yml, etc.)
+       * If you use the build script file within the sample-config-files subfolder, ensure you replace the FILE_NAME value with the name of the file you want to use.
 2. Create a pipeline and build within your respective platform (e.g. GitLab, AWS CodeBuild, GitHub, etc.)
 3. Validate that the template deploys successfully (or fails, if the policies are violated).
    * You can review the tail logs to perform this validation.
