@@ -1,4 +1,4 @@
-[![Twitter](https://img.shields.io/twitter/url?label=Follow%20Me%21&style=social&url=https%3A%2F%2Ftwitter.com%2Fjdubm31)](https://twitter.com/jdubm31)
+[![Twitter](https://img.shields.io/twitter/url?label=Follow%20Me%21&style=social&url=https%3A%2F%2Ftwitter.com%2Fdozercat31)](https://twitter.com/dozercat31)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hackersifu/example_opa_security_policies)
 ![GitHub](https://img.shields.io/github/license/hackersifu/example_opa_security_policies)
 
